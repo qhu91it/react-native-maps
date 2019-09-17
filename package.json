@@ -3,7 +3,7 @@
   "description": "React Native Mapview component for iOS + Android",
   "main": "index.js",
   "author": "Leland Richardson <leland.m.richardson@gmail.com>",
-  "version": "0.25.0",
+  "version": "0.25.1",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "run:packager": "./node_modules/react-native/scripts/packager.sh",
@@ -33,8 +33,8 @@
   ],
   "peerDependencies": {
     "prop-types": "^15.0 || ^16.0",
-    "react": ">= 16.0 || < 17.0",
-    "react-native": ">= 0.51"
+    "react": "*",
+    "react-native": "*"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
@@ -50,7 +50,7 @@
     "gitbook-cli": "^2.3.0",
     "lodash": "^4.17.2",
     "metro-react-native-babel-preset": "^0.53.1",
-    "react": "16.8.3",
-    "react-native": "0.59.3"
+    "react": "16.8.6",
+    "react-native": "0.60.5"
   }
 }
